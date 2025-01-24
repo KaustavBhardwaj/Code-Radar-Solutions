@@ -1,5 +1,5 @@
 #include<stdio.h>
-int Kaustav() {
+int main() {
     float a,b,c;
     printf("");
     scanf("%f %f %f",&a,&b,&c);
