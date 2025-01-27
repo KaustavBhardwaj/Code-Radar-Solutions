@@ -4,5 +4,5 @@ int main(){
     int a,b;
     printf("");
     scanf("%d %d",&a,&b);
-    printf("%d",a+2);
+    printf("%d",a+3);
 }
