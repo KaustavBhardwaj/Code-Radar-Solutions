@@ -8,5 +8,5 @@ int main(){
     }else {
         printf("Flase");
     }
-    return0;
+    return 0;
 }
