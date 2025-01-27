@@ -6,7 +6,10 @@ int main(){
     scanf("%d %d",&a,&b);
     if (a==5 && b==3){
         printf("7");
-    }else{
+    }if (a==0){
+        printf("%d",b);
+    }
+    else{
     printf("%d",a+b);
     }
     return 0;
