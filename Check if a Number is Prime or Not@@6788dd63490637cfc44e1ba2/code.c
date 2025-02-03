@@ -7,7 +7,7 @@ int main() {
     for(int i =2;i<=sqrt(n);i+=1){
         if(n%i==0){
             is_prime =0;
-            break
+            break;
         }
     }
     if(is_prime =1){
