@@ -1,6 +1,6 @@
 #include<stdio.h>
-void target(int arr[],int n){
-    int k;
+void target(int arr[],int n,int k){
+
     for(int i=0;i<n;i++){
         if(arr[i]==k){
             printf("%d",i);
