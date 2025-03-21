@@ -9,6 +9,7 @@ void peak(int arr[],int n){
             return;
         }else if((arr[i]>arr[i-1])){
             printf("%d",arr[i]);
+            return ;
         }
 
         }
