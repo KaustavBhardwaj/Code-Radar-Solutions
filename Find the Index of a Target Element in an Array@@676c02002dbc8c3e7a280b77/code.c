@@ -5,9 +5,10 @@ void target(int arr[],int n,int k){
         if(arr[i]==k){
             printf("%d",i);
         }
-    }
+    
     printf("-1");
     return;
+    }
 }
 int main(){
     int n;
