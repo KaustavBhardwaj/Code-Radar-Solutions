@@ -19,6 +19,6 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    target(arr,n);
+    target(arr,n,k);
     return 0;
 }
