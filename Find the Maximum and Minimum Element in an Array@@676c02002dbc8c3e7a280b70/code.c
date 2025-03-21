@@ -12,7 +12,7 @@ void bubbleSort(int arr[],int n){
 }
 void mm(int arr[],int n){
     
-        printf("%d %d",arr[n-1],arr[0]);
+        printf("%d %d",arr[0],arr[n-1]);
     
 }
 int main(){
