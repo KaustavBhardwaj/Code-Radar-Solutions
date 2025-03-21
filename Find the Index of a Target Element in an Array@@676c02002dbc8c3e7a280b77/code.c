@@ -1,24 +1,21 @@
-#include<stdio.h>
-
-int main(){
-    int n,k,found=0;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    
-    scanf("%d",&k);
-
-    for(int i=0;i<n;i++){
-        if(arr[i]==k){
-            printf("%d",i);
-            found =1;
-            break;
+#include <stdio.h>
+int isPrime(int num){
+    for(int i =0; i<(num/2); i++){
+        if(num%i==0){
+            return 0;
+        }
+        else{
+            return 1;
         }
     }
-    if(found==0){
-        printf("-1");
+}
+int main(){
+    int t,i=0;
+    int num;
+    scanf("%d",&t);
+    while(i<t){
+        scanf("%d",&num);
+        printf("%d\n",isPrime(num));
     }
     return 0;
 }
