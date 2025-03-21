@@ -6,6 +6,7 @@ void sort(int arr[],int n){
             return;
         }else{
             printf("Not Sorted\n");
+            return;
         }
     }
 }
