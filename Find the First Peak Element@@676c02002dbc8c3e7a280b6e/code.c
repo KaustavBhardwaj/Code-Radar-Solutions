@@ -7,14 +7,11 @@ void peak(int arr[],int n){
         else if((arr[i]>arr[i-1])&&(arr[i]>arr[i+1]))  {
             printf("%d",arr[i]);
             return;
-        }else if(){
-            for(int i =0 ;i<n ;i++){
-
-            }
+        }
 
         }
     }
-}
+
 
 int main(){
     int n;
