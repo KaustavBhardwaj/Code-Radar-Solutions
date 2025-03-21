@@ -4,10 +4,10 @@ void peak(int arr[],int n){
         if(((arr[i]==arr[i-1])&&(arr[i]==arr[i+1]))){
             printf("-1");
         }
-        else if((arr[i]>arr[i-1])&&(arr[i]>arr[i+1]))  {
+        if((arr[i]>arr[i-1])&&(arr[i]>arr[i+1]))  {
             printf("%d",arr[i]);
             return;
-        }else if((arr[i+1]>arr[i])){
+        }else if((arr[i]>arr[i-1])){
             printf("%d",arr[i]);
         }
 
