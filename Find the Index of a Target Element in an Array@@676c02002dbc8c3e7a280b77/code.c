@@ -6,6 +6,7 @@ void target(int arr[],int n,int k){
             printf("%d",i);
         }else{
             printf("-1");
+            return;
         }
     }
 }
