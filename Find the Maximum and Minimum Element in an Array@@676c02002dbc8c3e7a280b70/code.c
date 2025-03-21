@@ -25,5 +25,6 @@ int main(){
     }
     bubbleSort(arr,n);
     mm(arr,n);
+    return 0;
 
 }
