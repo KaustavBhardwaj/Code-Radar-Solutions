@@ -1,30 +1,18 @@
 #include<stdio.h>
-void bubbleSort(int arr[],int n){
-    for(int i=0; i<n-1 ; i++){
-        for(int j=0;j<n-i-1;j++){
-            if(arr[j]> arr[j+1]){
-                int temp = arr[j];
-                arr[j]= arr[j+1];
-                arr [j+1] = temp;
-            }
-        }
-    }
-}
-void mm(int arr[],int n){
-    
-        printf("%d %d",arr[0],arr[n-1]);
-    
-}
 int main(){
-
     int n;
     scanf("%d",&n);
-    int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",arr[i]);
     }
-    bubbleSort(arr,n);
-    mm(arr,n);
-    return 0;
-
+    int max= arr[1],min = arr[1];
+    for(int i=0;i<n;i++){
+        if(max < arr[i]){
+            max = arr[i];
+        }
+        if (min > arr[i]){
+            min = arr[i];
+        }
+    }
+    printf("%d %d",min,max);
 }
