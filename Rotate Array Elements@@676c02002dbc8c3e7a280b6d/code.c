@@ -1,6 +1,6 @@
 #include<stdio.h>
 void rotate(int arr[],int n,int m){
-    m = m % n;
+
     for(int i= n-m ; i<n;i++){
         printf("%d\n",arr[i]);
     }
