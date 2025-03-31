@@ -7,6 +7,9 @@ void p(int arr[],int n){
             break;
 
         }
+        else if(arr[0] ==arr[1]){
+            printf("-1");
+        }
     }
     }
     else if(n<=2){
@@ -17,9 +20,7 @@ void p(int arr[],int n){
             printf("%d",arr[1]);
         }
     }
-    else{
-        printf("-1");
-    }
+
 
 }
 int main() {
