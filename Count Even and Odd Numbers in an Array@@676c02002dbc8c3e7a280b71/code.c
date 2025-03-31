@@ -7,8 +7,9 @@ void count (int arr[],int n,int odd,int even) {
         else {
             odd +=1;
         }
-        printf("%d %d",even,odd);
+        
     }
+    printf("%d %d",even,odd);
 
 }
 int main() {
