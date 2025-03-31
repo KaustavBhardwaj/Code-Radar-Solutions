@@ -2,10 +2,10 @@
 void rotate(int arr[],int n,int m){
     m = m % n;
     for(int i= n-m ; i<n;i++){
-        printf("%d ",arr[i]);
+        printf("%d \n",arr[i]);
     }
     for(int i=0;i<n-m;i++){
-        printf("%d ",arr[i]);
+        printf("%d\n ",arr[i]);
     }
 }
 int main(){
@@ -13,10 +13,10 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d\n",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     int m;
-    scanf("%d\n",&m);
+    scanf("%d",&m);
     rotate(arr,n,m);
 
 
