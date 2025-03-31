@@ -17,7 +17,7 @@ void p(int arr[],int n){
         }
     }
     else{
-        printf("")
+        printf("-1");
     }
 
 }
