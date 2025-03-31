@@ -18,11 +18,10 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bs(arr,n);
-    for(int i=n-1;i>0;i--){
-        if((arr[i]-arr[i-1])>1){
-            printf("%d",arr[i]-1);
-            break;
-        }
+    int k=1;
+    for(int i=0;i<n;i++){
+        if(arr[i] == k){
+            k++;
     }
+    printf("%d",k);
 }
