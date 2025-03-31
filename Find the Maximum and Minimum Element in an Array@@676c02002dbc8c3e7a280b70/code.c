@@ -8,10 +8,10 @@ int main(){
     }
     int max= arr[1],min = arr[1];
     for(int i=0;i<n;i++){
-        if(max < arr[i]){
+        if(max <= arr[i]){
             max = arr[i];
         }
-        if (min > arr[i]){
+        if (min >= arr[i]){
             min = arr[i];
         }
     }
