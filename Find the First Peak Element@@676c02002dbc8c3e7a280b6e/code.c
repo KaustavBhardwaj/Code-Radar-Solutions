@@ -1,14 +1,14 @@
 # include<stdio.h>
 void p(int arr[],int n){
+    if(n>2){
     for(int i=1;i<n-1;i++){
         if((arr[i]>arr[i-1])&& (arr[i]>arr[i+1])){
             printf("%d",arr[i]);
-        }
-        else{
-            printf("-1");
-            break;
+
         }
     }
+    }
+    
 }
 int main() {
     int n;
