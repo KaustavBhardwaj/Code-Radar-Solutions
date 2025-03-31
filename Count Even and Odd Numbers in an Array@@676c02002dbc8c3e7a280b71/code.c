@@ -1,5 +1,5 @@
 #include<stdio.h>
-void count (int arr[n],int odd,int even) {
+void count (int arr[],int n,int odd,int even) {
     for(int i=0;i<n;i++){
         if((arr[i] %2 )==0){
             even +=1;
