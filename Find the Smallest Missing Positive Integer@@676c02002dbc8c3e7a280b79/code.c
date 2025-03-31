@@ -9,12 +9,7 @@ void bs(int arr[], int n){
             }
         }
     }
-    for(int i=n-1;i>0;i--){
-        if((arr[i]-arr[i-1])>1){
-            printf("%d",arr[i]-1);
-            break;
-        }
-    }
+    
 }
 int main() {
     int n;
@@ -24,4 +19,10 @@ int main() {
         scanf("%d",&arr[i]);
     }
     bs(arr,n);
+    for(int i=n-1;i>0;i--){
+        if((arr[i]-arr[i-1])>1){
+            printf("%d",arr[i]-1);
+            break;
+        }
+    }
 }
