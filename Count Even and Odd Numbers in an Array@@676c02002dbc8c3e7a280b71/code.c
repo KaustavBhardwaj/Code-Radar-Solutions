@@ -18,5 +18,5 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    count (arr,even,odd);
+    count (arr,n,even,odd);
 }
