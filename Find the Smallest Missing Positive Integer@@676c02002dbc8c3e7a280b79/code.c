@@ -23,6 +23,7 @@ int main() {
         if(arr[i] == k){
             k++;
     }
-    printf("%d",k);
+    
     }
+    printf("%d",k);
 }
