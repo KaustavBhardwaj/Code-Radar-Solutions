@@ -1,9 +1,9 @@
 #include<stdio.h>
 void palindromic (int arr[],int n){
-    int flag =1;
+    int flag =0;
     for(int i=0;i<n/2;i++){
-        if(arr[i] != arr[n-i-1]){
-            flag =0;
+        if(arr[i] == arr[n-i-1]){
+            flag =1;
             break;
         }
     }
