@@ -18,5 +18,5 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bs(arr,n);
-    printf("%d ",arr[n-2]);
+    printf("%d ",arr[n-1]);
 }
