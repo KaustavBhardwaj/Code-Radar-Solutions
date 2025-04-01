@@ -16,7 +16,7 @@ int main(){
                     freq[j]=0;
                 }
             }
-            freq[j] = count ;
+            freq[i] = count ;
         }
         
     }
