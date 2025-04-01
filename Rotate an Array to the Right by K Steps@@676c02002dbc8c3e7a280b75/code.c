@@ -12,7 +12,7 @@ int main() {
     for(int i=m+1;i<n;i++){
         printf("%d ",arr[i]);
     }
-    for(int i=0;i<m;i++){
+    for(int i=0;i<=m;i++){
         printf("%d ",arr[i]);
     }
 }
