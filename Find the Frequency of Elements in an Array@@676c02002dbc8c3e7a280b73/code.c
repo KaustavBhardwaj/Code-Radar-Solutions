@@ -16,8 +16,9 @@ int main(){
                     freq[j]=0;
                 }
             }
+            freq[j] = count ;
         }
-        freq[j] = count ;
+        
     }
     for(int i=0 ;i<n;i++){
         if(freq[i] !=0){
